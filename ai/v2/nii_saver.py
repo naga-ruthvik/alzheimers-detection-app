@@ -18,6 +18,10 @@ import os
 import numpy as np
 import nibabel as nib
 from scipy.ndimage import zoom, gaussian_filter
+
+# Use a non-interactive backend for server environments (prevents MacOS GUI backend errors)
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 
