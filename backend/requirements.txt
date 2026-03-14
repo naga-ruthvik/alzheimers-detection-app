@@ -1,0 +1,10 @@
+flask
+flask-cors
+torch
+nibabel
+numpy
+scipy
+matplotlib
+opencv-python
+einops
+pandas
